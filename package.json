@@ -1,0 +1,62 @@
+{
+  "name": "ibeacon.device",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "poetry": "0.1.86"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "rules": {
+      "valid-jsdoc": "warn",
+      "block-scoped-var": "warn",
+      "dot-notation": "warn",
+      "no-alert": "warn",
+      "no-unused-vars": "warn",
+      "no-else-return": "warn",
+      "no-eval": "warn",
+      "no-script-url": "warn",
+      "no-self-compare": "warn",
+      "no-delete-var": "off",
+      "camelcase": "warn",
+      "no-lonely-if": "warn",
+      "require-jsdoc": "warn",
+      "arrow-body-style": "warn",
+      "no-confusing-arrow": "warn",
+      "prefer-arrow-callback": "warn",
+      "comma-dangle": [
+        "warn",
+        "only-multiline"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    },
+    "env": {
+      "node": true
+    },
+    "globals": {
+      "Proxy": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    }
+  }
+}

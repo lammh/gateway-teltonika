@@ -1,0 +1,166 @@
+{
+    "1": {
+        "type": "digital input status 1",
+        "isBoolean": true
+    },
+    "2": {
+        "type": "digital input status 2",
+        "isBoolean": true
+    },
+    "3": {
+        "type": "digital input status 3",
+        "isBoolean": true
+    },
+    "9": {
+        "type": "analog input 1",
+        "unit": "mV"
+    },
+    "21": {
+        "type": "gsm level"
+    },
+    "24": {
+        "type": "speed",
+        "unit": "km/h"
+    },
+    "66": {
+        "type": "external power voltage",
+        "unit": "mV"
+    },
+    "69": {
+        "type": "gps power",
+        "isBoolean": true
+    },
+    "72": {
+        "type": "dallas temperature",
+        "unit": "da°C"
+    },
+    "78": {
+        "type": "ibutton id"
+    },
+    "80": {
+        "type": "data mode",
+        "enum": [
+            "home on stop",
+            "home on move",
+            "roaming on stop",
+            "roaming on move",
+            "unknown on stop",
+            "unknown on move"
+        ]
+    },
+    "155": {
+        "type": "geofence zone 01",
+        "enum": [
+            "left",
+            "entered"
+        ]
+    },
+    "156": {
+        "type": "geofence zone 02",
+        "enum": [
+            "left",
+            "entered"
+        ]
+    },
+    "157": {
+        "type": "geofence zone 03",
+        "enum": [
+            "left",
+            "entered"
+        ]
+    },
+    "158": {
+        "type": "geofence zone 04",
+        "enum": [
+            "left",
+            "entered"
+        ]
+    },
+    "159": {
+        "type": "geofence zone 05",
+        "enum": [
+            "left",
+            "entered"
+        ]
+    },
+    "175": {
+        "type": "auto geofence",
+        "enum": [
+            "left",
+            "entered"
+        ]
+    },
+    "179": {
+        "type": "digital output 1 state",
+        "isBoolean": true
+    },
+    "180": {
+        "type": "digital output 2 state",
+        "isBoolean": true
+    },
+    "181": {
+        "type": "pdop"
+    },
+    "182": {
+        "type": "hdop"
+    },
+    "199": {
+        "type": "odometer value",
+        "unit": "m"
+    },
+    "200": {
+        "type": "deep sleep",
+        "isBoolean": true
+    },
+    "205": {
+        "type": "cell id"
+    },
+    "206": {
+        "type": "area code"
+    },
+    "240": {
+        "type": "movement sensor",
+        "isBoolean": true
+    },
+    "241": {
+        "type": "gsm operator code"
+    },
+    "247":{
+        "type": "crash detection",
+        "enum": [
+            " ",
+            "crash",
+            "crash trace"
+        ]
+    },
+    "250": {
+        "type": "trip",
+        "enum": [
+            "stop",
+            "start"
+        ]
+    },
+    "251": {
+        "type": "immobilizer",
+        "isBoolean": true
+    },
+    "252": {
+        "type": "authorized driving",
+        "isBoolean": true
+    },
+    "253": {
+        "type": "green driving type",
+        "enum": [
+            "harsh acceleration",
+            "harsh braking",
+            "harsh cornering"
+        ]
+    },
+    "254": {
+        "type": "green driving value"
+    },
+    "255": {
+        "type": "overspeeding",
+        "unit": "km/h"
+    }
+}
